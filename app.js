@@ -1,9 +1,5 @@
 const mysql = require('mysql')
 
-//MySQL Command Line :
-//ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '171271';
-//GRANT ALL PRIVILEGES ON userdb.* TO 'root'@'localhost';
-
 const con = mysql.createConnection({
     host: 'localhost',
     user: 'root',
